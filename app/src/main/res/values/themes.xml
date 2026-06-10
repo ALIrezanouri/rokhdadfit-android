@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom modern styling for the athlete web view container -->
+    <style name="Theme.AthleteWrapper" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Status bar styling -->
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Splash/Empty viewport backdrop to prevent initial flickering -->
+        <item name="android:windowBackground">@color/statusBarColor</item>
+    </style>
+</resources>
